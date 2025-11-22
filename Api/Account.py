@@ -19,8 +19,8 @@ def get_garena_token(uid, password):
     url = "https://ffmconnect.live.gop.garenanow.com/oauth/guest/token/grant"
 
     payload = {
-        'uid': uid,
-        'password': password,
+        'uid': "3722236721",
+        'password': "D0B6570B581363895D0A5296D1E7BFC2E8204FE0A4F0973472607F749C7EC340",
         'response_type': "token",
         'client_type': "2",
         'client_secret': "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3",
